@@ -1,0 +1,28 @@
+@import 'variables';
+h1{
+    color: $red;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+  }
+
+  button {
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+  }
+
+  #message {
+    margin: 10px;
+    color: green;
+  }
